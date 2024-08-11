@@ -9,11 +9,22 @@ function App() {
 
   const [bookmarks, setBookmarks] = useState([])
 
-  const handleBookmarksBtn=(blog)=>{
-    console.log('Bookmarked added')
-    console.log(blog)
+  const handleBookmarksBtn=blog=>{
+
     const newBookmarks = [...bookmarks, blog]
     setBookmarks(newBookmarks)
+  }
+
+  const [readingTime, setReadingTime]= useState(0)
+
+  const handleMarksAsReadBtn=(id,time)=>{
+      const newReadingTime= readingTime + time
+      setReadingTime(newReadingTime)
+      // remove bookmark when mark as done click
+
+      const remainingBookmarks= bookmarks.filter(bookmark=>bookmark.id!==id)
+      setBookmarks(remainingBookmarks)
+
   }
 
 
@@ -21,8 +32,16 @@ function App() {
     <>    
      <Header></Header>
      <div className='md:flex '>
-     <Blogs handleBookmarksBtn={handleBookmarksBtn}></Blogs>
-     <Bookmarks bookmarks={bookmarks}></Bookmarks>
+     <Blogs 
+     handleBookmarksBtn={handleBookmarksBtn}
+     handleMarksAsReadBtn={handleMarksAsReadBtn}>
+     </Blogs>
+
+     <Bookmarks 
+     bookmarks={bookmarks}
+     readingTime={readingTime}>
+
+     </Bookmarks>
      </div>
      
      
@@ -30,4 +49,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

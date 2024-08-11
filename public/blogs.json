@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "cover_img": "https://i.ibb.co/vV38yyx/ai-technology-microchip-background-digital-transformation-concept.jpg",
+        "author_name": "Jane Doe",
+        "author_img": "https://i.ibb.co/wMN21Xp/lovely-woman.jpg",
+        "reading_time": 15,
+        "title": "The Art of Programming",
+        "hashtags": "#Programming",
+        "posted_date": "March 13, 2024"
+    },
+    {
+        "id": "2",
+        "cover_img": "https://i.ibb.co/rk9yNp4/9469582.jpg",
+        "author_name": "John Smith",
+        "author_img": "https://i.ibb.co/9WBW5kB/woman-red-jacket-using-tablet.jpg",
+        "reading_time": 20,
+        "title": "Understanding Algorithms",
+        "hashtags": "#Algorithms",
+        "posted_date": "December 02, 2024"
+    },
+    {
+        "id": "3",
+        "cover_img": "https://i.ibb.co/vcBsbzz/gamer-sitting-chair-full-shot.jpg",
+        "author_name": "Emily Johnson",
+        "author_img": "https://i.ibb.co/QY17h08/woman-enjoying-reading-cafe.jpg",
+        "reading_time": 10,
+        "title": "Data Structures Simplified",
+        "hashtags": "#DataStructures",
+        "posted_date": "July 04, 2024"
+    },
+    {
+        "id": "4",
+        "cover_img": "https://i.ibb.co/ZL3Fmh0/4523411-2394481.jpg",
+        "author_name": "Michael Brown",
+        "author_img": "https://i.ibb.co/zX7CSxj/woman-with-book-cafe.jpg",
+        "reading_time": 25,
+        "title": "Mastering Machine Learning",
+        "hashtags": "#MachineLearning",
+        "posted_date": "June 10, 2024"
+    },
+    {
+        "id": "5",
+        "cover_img": "https://i.ibb.co/Y7cjcZR/ai-site-helping-with-software-production.jpg",
+        "author_name": "Sophia Davis",
+        "author_img": "https://i.ibb.co/Z64zmQc/pretty-curly-young-woman-writing-notes-startup-project.jpg",
+        "reading_time": 30,
+        "title": "Web Development Essentials",
+        "hashtags": "#WebDevelopment",
+        "posted_date": "April 01, 2024"
+    }
+]
